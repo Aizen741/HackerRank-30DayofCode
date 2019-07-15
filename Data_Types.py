@@ -1,12 +1,16 @@
+i = 4
+d = 4.0
+s = 'HackerRank '
 a = int(input())
-b = float(input())
 c = str(input())
-i = int(b)
 
-d = (i+a)
-e = (b+b)
-f = ("HackerRank %s" %c)
+l = (i+a)
+e = (d+d)
+f =("%s" %c)
+h = (s +" "+ f)
 
-print(d)
+print(l)
 print(e)
-print(f)
+print(h)
+
+

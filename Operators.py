@@ -2,11 +2,13 @@ mealCost = float(input())
 tipPercent = int(input())
 taxPercent = int(input())
 
-def totalmealcost():
-    tip = float(int(mealCost)* tipPercent/100)
-    tax = float(int(mealCost)*taxPercent/100)
 
-    totalcost = float(mealCost + tip + tax )
-    return round(totalcost)
+def totalmealcost():
+    tip = mealCost * tipPercent / 100
+    tax = mealCost * taxPercent / 100
+    totalcost = round((mealCost + tip + tax))
+
+    return totalcost
+
 
 print(totalmealcost())
